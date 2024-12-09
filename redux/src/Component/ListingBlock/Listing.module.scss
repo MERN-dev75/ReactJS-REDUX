@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px; /* Optional: Set max width for the block */
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .scrollable {
+    height: 300px; /* Set the height of the scrollable block */
+    overflow-y: auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .smallBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .name {
+    font-size: 1rem;
+    color: #333;
+    flex: 1; /* Take up available space */
+    margin-right: 0.5rem;
+  }
+  
+  .deleteButton {
+    background: none;
+    border: none;
+    color: #ff4d4f;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .deleteButton:hover {
+    color: #d11a2a;
+  }
+  
